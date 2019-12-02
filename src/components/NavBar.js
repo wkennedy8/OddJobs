@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li><NavLink exact to="/"><img className="logo" src="OddJobslogo.png" alt="logo" /></NavLink></li>
+        <li><NavLink exact to="/"><img className="logo" src="https://leo.nyc3.digitaloceanspaces.com/oddjobs/OddJobslogo.png" alt="logo" /></NavLink></li>
         <li><NavLink className="services-tab" exact to="/services">Services</NavLink></li>
         <li><NavLink className="link-tabs" exact to="/support">Support</NavLink></li>
         <li><NavLink className="contractor-tab" exact to="/contractor_register">Be a Contractor</NavLink></li>
